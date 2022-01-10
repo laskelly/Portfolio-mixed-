@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Web Design | About Us</title>
+  <link rel= "stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Acme</span> Web Design</h1>
+        <!--span ensures it's inline, opposed to div that creates a new line-->
+      </div>
+      <nav>
+        <ul>
+           <!--Current shows the current home page to be highlighted-->
+          <li class="current"  target="_blank"><a href="services.html">Our Services</a></li>
+          <li><a href="index.html"  target="_blank">Home Page</a></li>
+          <li><a href="about.html"  target="_blank">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe to our newsletter</h1>
+      <form>
+        <input type="email" placeholder="Enter your email here">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Services</h1>
+        <ul id="services">
+          <li>
+            <h3>Website design</h3>
+            <p>Brown and Coconut founders and sisters, Letisha and Zeena Brown embarked on a journey to heal their skin from the inside out</p>
+            <p>Pricing = $1000 - $3000 MRR</p>
+          </li>
+          <li>
+            <h3>Website Maintenance</h3>
+            <p>Brown and Coconut founders and sisters, Letisha and Zeena Brown embarked on a journey to heal their skin from the inside out</p>
+            <p>Pricing = $300 MRR</p>
+          </li>
+          <li>
+            <h3>Website Hosting</h3>
+            <p>Brown and Coconut founders and sisters, Letisha and Zeena Brown embarked on a journey to heal their skin from the inside out</p>
+            <p>Pricing = $150</p>
+          </li>
+        </ul>
+      </article>
+
+      <aside id="sidebar"> <!--In html, I could merge classes/id and design them-->
+        <div class="dark">
+          <h3>Get a Quote</h3>
+          <form class="quote">
+            <div>
+              <label>Name</label>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" placeholder="Your email address">
+            </div>
+            <div>
+              <label>Messages</label>
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="button_1" type="submit">Send</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <p>Acme Webdesign &copy; 2022, Chinenye</p>
+  </footer>
+</body>
+</html>

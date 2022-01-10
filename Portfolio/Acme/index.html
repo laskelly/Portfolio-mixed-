@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Web Design | Welcome</title>
+  <link rel= "stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Acme</span> Web Design</h1>
+        <!--span ensures it's inline, opposed to div that creates a new line-->
+      </div>
+      <nav>
+        <ul>
+          <!--Current shows the current home page to be highlighted-->
+          <li class="current"  target="_blank"><a href="index.html">Home</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="services.html"  target="_blank">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Affordable Professional Web Design</h1>
+      <p>Your one-stop for a profesional design experience</p>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe to our newsletter</h1>
+      <form>
+        <input type="email" placeholder="Enter your email here">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="boxes">
+    <div class="container">
+      <!--The float is responsive in css because they are under the div class of "box"-->
+      <div class="box">
+        <img src="html.jpg" alt="Html markup">
+        <h3>Html5 Markup</h3>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      </div>
+      <div class="box">
+        <img src="css.jpg" alt="Css Styling">
+        <h3>CSS Styling</h3>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      </div>
+      <div class="box">
+        <img src="javascript.png" alt="Javascript">
+        <h3>Javascript</h3>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Acme Webdesign &copy; 2022, Chinenye</p>
+  </footer>
+</body>
+</html>
